@@ -4,9 +4,9 @@ class Rectangle {
 		this.width = width
 		this.height = height
 	}
-	get getArea()
+ getArea()
 	{
-		return (`${this.height}`*`${this.width}`)
+		return (this.height*this.width)
 	}
 }
 
@@ -17,7 +17,7 @@ class Square extends Rectangle {
 		this.num = num
 	
 	}
-    get getPerimeter()
+getPerimeter()
 	{
 		return `${this.num}` *4
 	}
